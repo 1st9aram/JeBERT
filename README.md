@@ -83,7 +83,18 @@ huggingface에서 제공하는 EncoderDecoderModel 사용을 사용했다.
 
 ---
 
+### Demo
+streamlit을 이용하여 실제로 번역기가 어떻게 동작하는지 확인할 수 있도록 했다. 
+
+![녹화_2022_05_12_21_40_19_699](https://user-images.githubusercontent.com/70511222/168076970-acb41b98-8bfe-475e-843e-60e6f0aed21d.gif)
+
+
+
+---
+
 ## huggingface link
+완성된 번역기를 huggingface에 업로드 했으므로 아래 링크에서 다운받아 사용할 수 있다. 
+
 https://huggingface.co/kompactss
 
 ## reference 
