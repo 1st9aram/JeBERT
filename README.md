@@ -53,7 +53,8 @@ AI-HUB 데이터는 아래아가 포함되지 않은 제주-한국 병렬 말뭉
 아래아 번역기는 아래아가 표기되지 않은 AI-HUB 데이터를 JIT와 동일하게 아래아를 포함하도록 변환해주는 번역기로 동일한 형태의 데이터를 모델이 input으로 받도록 전처리 과정에서 사용된다. 
 
 많은 데이터를 확보하기 위해 AI-HUB에서 제공하는 json 데이터를 활용하고자 했다. 이 데이터는 JIT와 달리 아래아를 표기하지 않고 해당 부분을 발음대로 표기하여 같은 단어도 다르게 표현되는 경우가 있다. 
-![image](https://user-images.githubusercontent.com/70511222/168066765-eaf87c9f-c3e5-42a3-9194-24d2ea7f4b1a.png)
+![image](https://user-images.githubusercontent.com/70511222/168250237-c40db28f-e0f6-41bf-ade3-89bb81878312.png)
+
 
 따라서 JIT의 아래아를 ㅗ, ㅏ, ㅓ로 변환한 데이터를 input,  원본 JIT를 target으로 하는 번역기를 생성했다. 이 번역기를 AI-HUB데이터에 적용, 아래아를 추가했다. 아래아는 현재 ㅏ, ㅗ, ㅓ로 발음되고 있어 번역기는 아래 두 가지를 만들어 사용했다. 해당 번역기로 전처리된 AI-HUB 데이터를 각각 Preprocess AI-HUB와 Preprocesse AI-HUB-v2로 표기하겠다.
 * input(아래아를 "ㅗ"로 변환한 JIT) -> 원본 JIT
