@@ -103,7 +103,7 @@ huggingface에서 제공하는 EncoderDecoderModel 사용을 사용했다. encod
 
 로컬 환경에서 모델을 실행할 수 있도록 간단하게 소개한다.
 
-- [로컬 환경 실행에서 실행하기](https://github.com/Goormnlpteam3/JeBERT/blob/main/bleu_score(local_path_version).ipynb)
+- [로컬 환경 실행에서 실행하기](https://github.com/Goormnlpteam3/JeBERT/blob/main/MainModel/bleu_score(local_path_version).ipynb)
 
 또, streamlit을 이용하여 실제로 번역기가 어떻게 동작하는지 확인할 수 있도록 했다. 
 
