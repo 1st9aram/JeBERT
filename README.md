@@ -40,7 +40,7 @@ AI-HUB 데이터는 아래아가 포함되지 않은 제주-한국 병렬 말뭉
 |data|제주어|표준어|
 |:--:|:--:|:--:|
 |JIT|![image](https://user-images.githubusercontent.com/70511222/168055112-91ad31ac-7c1f-4720-a586-3b34f589578e.png)|![image](https://user-images.githubusercontent.com/70511222/168055173-ea65dbd2-987b-4300-9cfb-1f80b151d8ff.png)|
-|AI-HUB|혼저옵서예|어서오세요|
+|AI-HUB|![image](https://user-images.githubusercontent.com/70511222/168217108-b1e5daf2-ae9e-431e-a301-03afcd038c2f.png)|![image](https://user-images.githubusercontent.com/70511222/168217072-d399a86d-85e8-4d46-b412-5f70be6fa2a8.png)|
 
 
 ---
