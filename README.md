@@ -100,7 +100,12 @@ huggingface에서 제공하는 EncoderDecoderModel 사용을 사용했다. encod
 ---
 
 ### Demo
-streamlit을 이용하여 실제로 번역기가 어떻게 동작하는지 확인할 수 있도록 했다. 
+
+로컬 환경에서 모델을 실행할 수 있도록 간단하게 소개한다.
+
+- [로컬 환경 실행에서 실행하기](https://github.com/Goormnlpteam3/JeBERT/blob/main/bleu_score(local_path_version).ipynb)
+
+또, streamlit을 이용하여 실제로 번역기가 어떻게 동작하는지 확인할 수 있도록 했다. 
 
 ![녹화_2022_05_12_21_40_19_699](https://user-images.githubusercontent.com/70511222/168076970-acb41b98-8bfe-475e-843e-60e6f0aed21d.gif)
 
