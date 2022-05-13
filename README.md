@@ -1,5 +1,5 @@
 # JeBERT
- Groom x K-digital training으로 진행된 "AI기술 자연어 처리 전문가 양성 과정 3기" 3조 프로젝트. 해당 과정은 Google Colab Pro+에서 진행했다. 
+ /t Groom x K-digital training으로 진행된 "AI기술 자연어 처리 전문가 양성 과정 3기" 3조 프로젝트. 해당 과정은 Google Colab Pro+에서 진행했다. 
 
 - [JeBERT](#JeBERT)
   - [Purpose](#purpose)
@@ -114,9 +114,9 @@ JIT tset set (5,000) + AI_hub test set (5,000)
 
 ### Demo
 
- Colab 환경에서 모델을 실행할 수 있도록 간단하게 소개한다.
+ 로컬 환경에서 모델을 실행할 수 있도록 간단하게 소개한다.
 
-- [Colab 환경 실행에서 실행하기](https://github.com/Goormnlpteam3/JeBERT/blob/main/MainModel/bleu_score(local_path_version).ipynb)
+- [로컬 환경 실행에서 실행하기](https://github.com/Goormnlpteam3/JeBERT/blob/main/MainModel/bleu_score(local_path_version).ipynb)
 
  또, streamlit을 이용하여 실제로 번역기가 어떻게 동작하는지 확인할 수 있도록 했다. 
 
