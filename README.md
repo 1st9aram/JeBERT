@@ -118,6 +118,12 @@ huggingface에서 제공하는 EncoderDecoderModel 사용을 사용했다. encod
 
 https://huggingface.co/kompactss
 
+
+## Authors
+[주형준](https://github.com/hyper-owl), [강가람](https://github.com/1st9aram), [고광연](https://github.com/Kompactss), [김수연](https://github.com/SYEON9), 이원경, 조성은
+
+
+
 ## reference 
 https://github.com/monologg/KoBERT-Transformers
 https://github.com/kakaobrain/jejueo/blob/master/translation
