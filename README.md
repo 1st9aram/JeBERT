@@ -53,7 +53,7 @@ WordPiece Tokenizer를 활용해 사전을 생성했다.
 ---
 
 ### Model
-huggingface에서 제공하는 EncoderDecoderModel 사용을 사용했다. 
+huggingface에서 제공하는 EncoderDecoderModel 사용을 사용했다. encoder와 decoder는 BERT의 모델 구조를 가져와 새로 학습을 진행했다. 
 * Encoder: Transformer config(BertConfig)
 * Decoder: Transformer config(BertConfig)
 
