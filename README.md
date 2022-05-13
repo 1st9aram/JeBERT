@@ -31,8 +31,8 @@ Groom x K-digital training으로 진행된 "AI기술 자연어 처리 전문가 
 ## 프로그램 진행
 
 ### Dataset
-* JIT 
-* AI-HUB 
+* [JIT](https://www.kaggle.com/datasets/bryanpark/jit-dataset) 
+* [AI-HUB](https://aihub.or.kr/aidata/33982) 
 
 JIT는 Kakao에서 제주어를 보존하기 위해 만든 데이터셋. 아래아, 쌍아래아가 포함된 *제주-한국 병렬 말뭉치*. 
 AI-HUB 데이터는 아래아가 포함되지 않은 제주-한국 병렬 말뭉치. 개발환경과 시간의 한계로 총 200만개의 데이터 중 20만개를 사용했다. 모델에 사용한 데이터는 JIT 17만 개, AI-HUB 데이터 20만개를 합쳐 총 37만개이다. 이 중 학습에 36만개, 검증에 5,000개 시험에 5,000개를 사용했다. 
