@@ -1,5 +1,5 @@
 # JeBERT
- /t Groom x K-digital training으로 진행된 "AI기술 자연어 처리 전문가 양성 과정 3기" 3조 프로젝트. 해당 과정은 Google Colab Pro+에서 진행했다. 
+ Groom x K-digital training으로 진행된 "AI기술 자연어 처리 전문가 양성 과정 3기" 3조 프로젝트. 해당 과정은 Google Colab Pro+에서 진행했다. 
 
 - [JeBERT](#JeBERT)
   - [Purpose](#purpose)
