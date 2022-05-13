@@ -90,6 +90,18 @@ huggingface에서 제공하는 EncoderDecoderModel 사용을 사용했다. encod
 
 * BLEU score 비교
 
+JIT tset set (5,000)
+
+|모델|제주어 -> 표준어|표준어 -> 제주어|
+|:--:|:--:|:--:|
+|JIT|71.9|59.0|
+|JIT + AI-HUB|59.7|41.3|
+|JIT + preprocessed AI-HUB|**74.3**|60.7|
+|JIT + preprocessed AI-HUB-v2|**74.3**|**61.1**|
+
+
+JIT tset set (5,000) + AI_hub test set (5,000)
+
 |모델|제주어 -> 표준어|표준어 -> 제주어|
 |:--:|:--:|:--:|
 |JIT|71.1|57.9|
