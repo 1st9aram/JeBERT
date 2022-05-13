@@ -13,6 +13,7 @@ Groom x K-digital training으로 진행된 "AI기술 자연어 처리 전문가 
   - [Performance](#Performance)
 - [Demo](#Demo)
 - [huggingface link](#huggingface-link)
+- [Authors](#Authors)
 - [reference](#reference)
 
 ---
@@ -84,13 +85,12 @@ huggingface에서 제공하는 EncoderDecoderModel 사용을 사용했다. encod
 
 ---
 ### Performance
-모델 개선에 치중한 다른 논문과 달리 데이터 전처리에 집중한 우리 번역기의 성능이 더 높게 나온다. 
+데이터 전처리에 집중한 우리 번역기의 성능은 JIT만 학습에 사용한 경우보다 아래아를 추가한 AI-HUB 데이터를 함께 사용했을 때 더 높게 나온다. 주목할 점은 Preprocess AI-HUB와 Preprocesse AI-HUB-v2가 사용된 경우의 성능은 거의 차이나지 않는다는 점이다. 
 
 * BLEU score 비교
 
 |모델|제주어 -> 표준어|표준어 -> 제주어|
 |:--:|:--:|:--:|
-|다른 논문(수정)|67.94|44.19|
 |JIT|71.1|57.9|
 |JIT + AI-HUB|73.7|57.8|
 |JIT + preprocessed AI-HUB|**79.1**|67.3|
