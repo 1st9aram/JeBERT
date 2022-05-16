@@ -7,7 +7,7 @@
 - [프로젝트 진행](#프로젝트-진행)
   - [Dataset](#Dataset)
   - [아래아 번역기](#아래아-번역기)
-  - [Vocab](#Vocab)
+  - [Tokenizer](#Tokenizer)
   - [Model](#Model)
   - [Metric](#Metric)
   - [Performance](#Performance)
@@ -61,9 +61,19 @@ AI-HUB 데이터는 아래아가 포함되지 않은 제주-한국 병렬 말뭉
 * input(아래아를 "ㅏ","ㅗ","ㅓ"로 변환한 JIT) -> 원본 JIT  
 ![image](https://user-images.githubusercontent.com/70511222/168067977-a4ceca4c-a0e3-44aa-a660-08666931d14e.png)
 
+#### 아래아 번역기 Tokenizer
+　WordPiece Tokenizer를 활용해 사전을 생성하였다. 이 사전은 encoder와 decoder부분을 각각 다르게 생성했다.
+ - Encoder:
+ - Decoder
+
+#### 아래아 번역기 Model 
+　Huggingface에서 제공하는 EncoderDecoderModel을 사용했다. encoder와 decoder는 BERT의 모델 구조를 가져와 새로 학습을 진행했다. 
+* Encoder: Transformer config(BertConfig)
+* Decoder: Transformer config(BertConfig)
+
 ---
 
-### Vocab
+### Tokenizer
 　WordPiece Tokenizer를 활용해 사전을 생성했다. 
 * vocab size: 30522
 * 사용 데이터: JIT + 아래아가 추가된 AI-HUB 데이터.
@@ -71,7 +81,7 @@ AI-HUB 데이터는 아래아가 포함되지 않은 제주-한국 병렬 말뭉
 ---
 
 ### Model
-　huggingface에서 제공하는 EncoderDecoderModel 사용을 사용했다. encoder와 decoder는 BERT의 모델 구조를 가져와 새로 학습을 진행했다. 
+　huggingface에서 제공하는 EncoderDecoderModel을 사용했다. encoder와 decoder는 BERT의 모델 구조를 가져와 새로 학습을 진행했다. 
 * Encoder: Transformer config(BertConfig)
 * Decoder: Transformer config(BertConfig)
 
