@@ -62,9 +62,8 @@ AI-HUB 데이터는 아래아가 포함되지 않은 제주-한국 병렬 말뭉
 ![image](https://user-images.githubusercontent.com/70511222/168067977-a4ceca4c-a0e3-44aa-a660-08666931d14e.png)
 
 #### 아래아 번역기 Tokenizer
-　WordPiece Tokenizer를 활용해 사전을 생성하였다. 이 사전은 encoder와 decoder부분을 각각 다르게 생성했다.
- - Encoder:
- - Decoder
+　WordPiece Tokenizer를 활용해 사전을 생성하였다. 
+* vocab size: 32000
 
 #### 아래아 번역기 Model 
 　Huggingface에서 제공하는 EncoderDecoderModel을 사용했다. encoder와 decoder는 BERT의 모델 구조를 가져와 새로 학습을 진행했다. 
