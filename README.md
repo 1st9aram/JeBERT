@@ -62,7 +62,7 @@ AI-HUB 데이터는 아래아가 포함되지 않은 제주-한국 병렬 말뭉
 ![image](https://user-images.githubusercontent.com/70511222/168067977-a4ceca4c-a0e3-44aa-a660-08666931d14e.png)
 
 #### 아래아 번역기 Tokenizer
-　WordPiece Tokenizer를 활용해 사전을 생성하였다. 
+　WordPiece Tokenizer를 활용해 사전을 생성하였다. 아래아가 표기된 제주어 데이터와 아래아가 표기되어있지 않은 제주어 데이터의 토크나이저를 각각 만들어 적용해 주었다. 
 * vocab size: 32000
 
 #### 아래아 번역기 Model 
@@ -73,7 +73,7 @@ AI-HUB 데이터는 아래아가 포함되지 않은 제주-한국 병렬 말뭉
 ---
 
 ### Tokenizer
-　WordPiece Tokenizer를 활용해 사전을 생성했다. 
+　WordPiece Tokenizer를 활용해 사전을 생성했다. 이 경우 아래아 번역기와는 다르게 표준어와 제주어를 합쳐서 하나의 토크나이저를 사용하였다.
 * vocab size: 30522
 * 사용 데이터: JIT + 아래아가 추가된 AI-HUB 데이터.
 
